@@ -4,7 +4,7 @@ import json
 
 api_key = config("API_KEY")
 
-url = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Mae%20Chan?unitGroup=metric&include=current&key=ASRQL55QSXYKL63Y2DCEMFUC3&contentType=json"
+url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Mae%20Chan?unitGroup=metric&include=current&key={api_key}&contentType=json"
 
 response = requests.get(url)
 text = response.text
