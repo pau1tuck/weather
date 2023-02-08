@@ -1,0 +1,5 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python3",
+    "python.pipenvPath": "${workspaceFolder}/env/bin/pip3",
+    "python.formatting.blackPath": "env/bin/black"
+}
