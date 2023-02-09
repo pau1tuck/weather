@@ -20,7 +20,7 @@ temperature = current_conditions["temp"]
 date = datetime.now()
 timezone = location_data["timezone"]
 
-print(str(date.strftime("%a, %b %-d, %Y, %-I:%M %p")) + " (" + str(timezone) + ")")
+print(str(date.strftime("%a, %b %-d, %Y, %-I:%M %p")) + " (" + str(timezone) + ")\n")
 
 print("Current Conditions:")
 print(f"Temperature: {temperature:.0f}°C")
